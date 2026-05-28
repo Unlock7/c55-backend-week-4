@@ -1,0 +1,39 @@
+# 📘 API Design — Analytics API (Week 4 Assignment)
+
+## Overview
+This document describes the design of the **Analytics API** built for Week 4 of the HYF Backend course.
+The API allows clients to submit analytics events, list and filter them, fetch individual records, replace or delete records, and request a summary.
+
+The API follows REST principles, uses resource‑oriented URIs, proper HTTP methods, validation, and structured error responses.
+
+---
+
+# 📁 Resources
+
+## **Analytics Record**
+Represents a single analytics event.
+
+### Fields
+| Field        | Type              | Description |
+|--------------|-------------------|-------------|
+| `id`         | String (UUID)     | Server‑generated trace ID |
+| `eventType`  | String            | Type of event (e.g., "click", "login") |
+| `eventSource`| String            | Source of event (e.g., "homepage") |
+| `sessionId`  | String            | Anonymized session identifier |
+| `timestamp`  | ISO‑8601 datetime | When the event occurred |
+
+---
+
+# 🛣️ Endpoints
+
+## 1. **Create a new analytics record**
+### `POST /api/analytics`
+
+### Request Body
+```json
+{
+  "eventType": "click",
+  "eventSource": "homepage",
+  "sessionId": "abc123",
+  "timestamp": "2024-05-01T10:15:30"
+}

@@ -1,15 +1,17 @@
-package com.yourname.analyticsapi.dto.response;
+package com.yourname.analyticsapi.model;
 
 import lombok.Getter;
 import lombok.Setter;
 import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
 
 @Getter
 @Setter
 @AllArgsConstructor
-public class AnalyticsRecordResponse {
+@NoArgsConstructor
+public class AnalyticsRecord {
 
     private String id;
     private String eventType;
