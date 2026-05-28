@@ -1,4 +1,4 @@
-package com.yourname.analyticsapi.exception;
+package com.dagim.analyticsapi.exception;
 
 import lombok.Getter;
 import lombok.Setter;

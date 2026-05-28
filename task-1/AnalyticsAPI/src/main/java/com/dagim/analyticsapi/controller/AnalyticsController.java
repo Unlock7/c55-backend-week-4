@@ -1,4 +1,4 @@
-package com.yourname.analyticsapi.controller;
+package com.dagim.analyticsapi.controller;
 
 import com.yourname.analyticsapi.dto.request.AnalyticsRecordRequest;
 import com.yourname.analyticsapi.dto.response.AnalyticsRecordResponse;

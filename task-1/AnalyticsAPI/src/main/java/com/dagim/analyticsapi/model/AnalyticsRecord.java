@@ -1,4 +1,4 @@
-package com.yourname.analyticsapi.model;
+package com.dagim.analyticsapi.model;
 
 import lombok.Getter;
 import lombok.Setter;

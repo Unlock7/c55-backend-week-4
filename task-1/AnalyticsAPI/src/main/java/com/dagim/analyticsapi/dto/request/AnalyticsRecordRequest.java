@@ -1,4 +1,4 @@
-package com.yourname.analyticsapi.dto.request;
+package com.dagim.analyticsapi.dto.request;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

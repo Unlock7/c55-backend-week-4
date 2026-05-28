@@ -1,4 +1,4 @@
-package com.yourname.analyticsapi;
+package com.dagim.analyticsapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

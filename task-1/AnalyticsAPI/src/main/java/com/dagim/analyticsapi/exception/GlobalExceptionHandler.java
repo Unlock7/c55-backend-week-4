@@ -1,4 +1,4 @@
-package com.yourname.analyticsapi.exception;
+package com.dagim.analyticsapi.exception;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.validation.ConstraintViolationException;

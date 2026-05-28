@@ -1,4 +1,4 @@
-package com.yourname.analyticsapi.dto.response;
+package com.dagim.analyticsapi.dto.response;
 
 import lombok.Getter;
 import lombok.Setter;
